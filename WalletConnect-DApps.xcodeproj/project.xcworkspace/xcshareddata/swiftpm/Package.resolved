@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "DAppLib",
+        "repositoryURL": "https://github.com/nghminh163/DApp-Swift.git",
+        "state": {
+          "branch": "main",
+          "revision": "7f034f7885f4ae89cccf2ba0e3bcde6ea1c30c1b",
+          "version": null
+        }
+      },
+      {
         "package": "Starscream",
         "repositoryURL": "https://github.com/daltoniam/Starscream.git",
         "state": {

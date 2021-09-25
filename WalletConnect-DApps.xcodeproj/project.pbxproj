@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EC4B7D3D26FEDC2E00E13E16 /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B7D3C26FEDC2E00E13E16 /* ActionsViewController.swift */; };
 		EC4B7D4126FEE9CA00E13E16 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B7D4026FEE9CA00E13E16 /* Utils.swift */; };
-		ECA58BC126FF02FE006280E5 /* DAppLib in Frameworks */ = {isa = PBXBuildFile; productRef = ECA58BC026FF02FE006280E5 /* DAppLib */; };
+		ECB6818026FF08D4009DE075 /* DAppLib in Frameworks */ = {isa = PBXBuildFile; productRef = ECB6817F26FF08D4009DE075 /* DAppLib */; };
 		ECEBC4BA26FE2173009D64CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEBC4B926FE2173009D64CD /* AppDelegate.swift */; };
 		ECEBC4BC26FE2173009D64CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEBC4BB26FE2173009D64CD /* SceneDelegate.swift */; };
 		ECEBC4BE26FE2173009D64CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEBC4BD26FE2173009D64CD /* ViewController.swift */; };
@@ -29,7 +29,6 @@
 		ECEBC4C226FE2175009D64CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECEBC4C526FE2175009D64CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECEBC4C726FE2175009D64CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECEBC4D526FE258F009D64CD /* DAppLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DAppLib; path = ../DAppLib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA58BC126FF02FE006280E5 /* DAppLib in Frameworks */,
+				ECB6818026FF08D4009DE075 /* DAppLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +53,6 @@
 		ECEBC4AD26FE2173009D64CD = {
 			isa = PBXGroup;
 			children = (
-				ECEBC4D426FE258F009D64CD /* Packages */,
 				ECEBC4B826FE2173009D64CD /* WalletConnect-DApps */,
 				ECEBC4B726FE2173009D64CD /* Products */,
 				EC168C6026FE261A009AED20 /* Frameworks */,
@@ -85,14 +83,6 @@
 			path = "WalletConnect-DApps";
 			sourceTree = "<group>";
 		};
-		ECEBC4D426FE258F009D64CD /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				ECEBC4D526FE258F009D64CD /* DAppLib */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,7 +100,7 @@
 			);
 			name = "WalletConnect-DApps";
 			packageProductDependencies = (
-				ECA58BC026FF02FE006280E5 /* DAppLib */,
+				ECB6817F26FF08D4009DE075 /* DAppLib */,
 			);
 			productName = "WalletConnect-DApps";
 			productReference = ECEBC4B626FE2173009D64CD /* WalletConnect-DApps.app */;
@@ -141,6 +131,7 @@
 			);
 			mainGroup = ECEBC4AD26FE2173009D64CD;
 			packageReferences = (
+				ECB6817E26FF08D4009DE075 /* XCRemoteSwiftPackageReference "DApp-Swift" */,
 			);
 			productRefGroup = ECEBC4B726FE2173009D64CD /* Products */;
 			projectDirPath = "";
@@ -394,9 +385,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		ECB6817E26FF08D4009DE075 /* XCRemoteSwiftPackageReference "DApp-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nghminh163/DApp-Swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		ECA58BC026FF02FE006280E5 /* DAppLib */ = {
+		ECB6817F26FF08D4009DE075 /* DAppLib */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = ECB6817E26FF08D4009DE075 /* XCRemoteSwiftPackageReference "DApp-Swift" */;
 			productName = DAppLib;
 		};
 /* End XCSwiftPackageProductDependency section */
