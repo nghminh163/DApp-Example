@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4B7D3D26FEDC2E00E13E16 /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B7D3C26FEDC2E00E13E16 /* ActionsViewController.swift */; };
+		EC4B7D4126FEE9CA00E13E16 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4B7D4026FEE9CA00E13E16 /* Utils.swift */; };
+		ECA58BC126FF02FE006280E5 /* DAppLib in Frameworks */ = {isa = PBXBuildFile; productRef = ECA58BC026FF02FE006280E5 /* DAppLib */; };
+		ECEBC4BA26FE2173009D64CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEBC4B926FE2173009D64CD /* AppDelegate.swift */; };
+		ECEBC4BC26FE2173009D64CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEBC4BB26FE2173009D64CD /* SceneDelegate.swift */; };
+		ECEBC4BE26FE2173009D64CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEBC4BD26FE2173009D64CD /* ViewController.swift */; };
+		ECEBC4C126FE2173009D64CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEBC4BF26FE2173009D64CD /* Main.storyboard */; };
+		ECEBC4C326FE2175009D64CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEBC4C226FE2175009D64CD /* Assets.xcassets */; };
+		ECEBC4C626FE2175009D64CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEBC4C426FE2175009D64CD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC4B7D3C26FEDC2E00E13E16 /* ActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
+		EC4B7D4026FEE9CA00E13E16 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		ECEBC4B626FE2173009D64CD /* WalletConnect-DApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalletConnect-DApps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEBC4B926FE2173009D64CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECEBC4BB26FE2173009D64CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECEBC4BD26FE2173009D64CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECEBC4C026FE2173009D64CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECEBC4C226FE2175009D64CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEBC4C526FE2175009D64CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEBC4C726FE2175009D64CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEBC4D526FE258F009D64CD /* DAppLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DAppLib; path = ../DAppLib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEBC4B326FE2173009D64CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA58BC126FF02FE006280E5 /* DAppLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC168C6026FE261A009AED20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECEBC4AD26FE2173009D64CD = {
+			isa = PBXGroup;
+			children = (
+				ECEBC4D426FE258F009D64CD /* Packages */,
+				ECEBC4B826FE2173009D64CD /* WalletConnect-DApps */,
+				ECEBC4B726FE2173009D64CD /* Products */,
+				EC168C6026FE261A009AED20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEBC4B726FE2173009D64CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEBC4B626FE2173009D64CD /* WalletConnect-DApps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEBC4B826FE2173009D64CD /* WalletConnect-DApps */ = {
+			isa = PBXGroup;
+			children = (
+				ECEBC4B926FE2173009D64CD /* AppDelegate.swift */,
+				ECEBC4BB26FE2173009D64CD /* SceneDelegate.swift */,
+				ECEBC4BD26FE2173009D64CD /* ViewController.swift */,
+				ECEBC4BF26FE2173009D64CD /* Main.storyboard */,
+				EC4B7D3C26FEDC2E00E13E16 /* ActionsViewController.swift */,
+				ECEBC4C226FE2175009D64CD /* Assets.xcassets */,
+				ECEBC4C426FE2175009D64CD /* LaunchScreen.storyboard */,
+				ECEBC4C726FE2175009D64CD /* Info.plist */,
+				EC4B7D4026FEE9CA00E13E16 /* Utils.swift */,
+			);
+			path = "WalletConnect-DApps";
+			sourceTree = "<group>";
+		};
+		ECEBC4D426FE258F009D64CD /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				ECEBC4D526FE258F009D64CD /* DAppLib */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEBC4B526FE2173009D64CD /* WalletConnect-DApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEBC4CA26FE2175009D64CD /* Build configuration list for PBXNativeTarget "WalletConnect-DApps" */;
+			buildPhases = (
+				ECEBC4B226FE2173009D64CD /* Sources */,
+				ECEBC4B326FE2173009D64CD /* Frameworks */,
+				ECEBC4B426FE2173009D64CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WalletConnect-DApps";
+			packageProductDependencies = (
+				ECA58BC026FF02FE006280E5 /* DAppLib */,
+			);
+			productName = "WalletConnect-DApps";
+			productReference = ECEBC4B626FE2173009D64CD /* WalletConnect-DApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEBC4AE26FE2173009D64CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ECEBC4B526FE2173009D64CD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = ECEBC4B126FE2173009D64CD /* Build configuration list for PBXProject "WalletConnect-DApps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEBC4AD26FE2173009D64CD;
+			packageReferences = (
+			);
+			productRefGroup = ECEBC4B726FE2173009D64CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEBC4B526FE2173009D64CD /* WalletConnect-DApps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEBC4B426FE2173009D64CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEBC4C626FE2175009D64CD /* LaunchScreen.storyboard in Resources */,
+				ECEBC4C326FE2175009D64CD /* Assets.xcassets in Resources */,
+				ECEBC4C126FE2173009D64CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEBC4B226FE2173009D64CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEBC4BE26FE2173009D64CD /* ViewController.swift in Sources */,
+				ECEBC4BA26FE2173009D64CD /* AppDelegate.swift in Sources */,
+				EC4B7D3D26FEDC2E00E13E16 /* ActionsViewController.swift in Sources */,
+				EC4B7D4126FEE9CA00E13E16 /* Utils.swift in Sources */,
+				ECEBC4BC26FE2173009D64CD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECEBC4BF26FE2173009D64CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEBC4C026FE2173009D64CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEBC4C426FE2175009D64CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEBC4C526FE2175009D64CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEBC4C826FE2175009D64CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECEBC4C926FE2175009D64CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEBC4CB26FE2175009D64CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U8B492Y7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WalletConnect-DApps/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghminh163.WalletConnectDApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECEBC4CC26FE2175009D64CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U8B492Y7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WalletConnect-DApps/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghminh163.WalletConnectDApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEBC4B126FE2173009D64CD /* Build configuration list for PBXProject "WalletConnect-DApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEBC4C826FE2175009D64CD /* Debug */,
+				ECEBC4C926FE2175009D64CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEBC4CA26FE2175009D64CD /* Build configuration list for PBXNativeTarget "WalletConnect-DApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEBC4CB26FE2175009D64CD /* Debug */,
+				ECEBC4CC26FE2175009D64CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECA58BC026FF02FE006280E5 /* DAppLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DAppLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ECEBC4AE26FE2173009D64CD /* Project object */;
+}
